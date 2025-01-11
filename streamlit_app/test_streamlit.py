@@ -31,7 +31,7 @@ st.markdown(f"""
 if user_query:
     user_query = st.text_input("What do you want Anders or should I say morty?")
     client = OpenAI(
-        api_key='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')  # Make sure to replace with your actual OpenAI API key
+        api_key='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')  # Make sure to replace with your actual OpenAI API key
     search_endpoint: str = "https://srch-oesachatdev-demo.search.windows.net"
     search_api_key: str = "chj7oI3m2hJdeBY9Gh0GZ7z8svaTZD8wLItpOgT1YfAzSeCbfrx9"
     index_name: str = "teamhistories_final_final"
