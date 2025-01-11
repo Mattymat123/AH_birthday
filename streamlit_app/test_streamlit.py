@@ -13,7 +13,7 @@ from weaviate.classes.init import Auth
 
 st.title("ITS RIIIIIIIICK MOTHERFUCKEEER Happy birthday Anders or whatever")
 user_query = 'test'
-gif_path = '/Users/bruger/PycharmProjects/AH_gave/Test/well-what.gif'
+gif_path = '/Test/well-what.gif'
 
 # Custom HTML and CSS to change background
 st.markdown(f"""
